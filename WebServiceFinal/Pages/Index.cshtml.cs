@@ -22,9 +22,9 @@ namespace WebServiceFinal.Pages
         {
 
         }
-        public void OnPost(double value1, double value2, string operation)
+        public void OnPost(double val1, double val2, string calculation)
         {
-            switch (operation)
+            switch (calculation)
             {
                 case "addition":
                     Output = Calculator.addition(val1, val2);
